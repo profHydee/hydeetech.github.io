@@ -1,0 +1,30 @@
+body{
+    background: url(../images/apple-design-d.jpg);
+    background-size:cover;
+    
+}
+section.frontpage {
+    width:80%;
+    max-width:700px;
+    padding: 50px 30px;
+    text-align:center;
+    margin: 40px auto;
+    border-radius:8px;
+    color:#ffffff;
+    background-color:rgba(0,0,0,0.9);
+    box-shadow: 2px 2px 3px #ffffff;
+}
+.frontpage img{
+    width:200px;
+    border-radius:50%;
+}
+.btn-success{
+    margin-right:8px;
+}
+@media (max-width:768px){
+
+    .btn{
+        display:block;
+        margin:0px auto 8px;
+    }
+}

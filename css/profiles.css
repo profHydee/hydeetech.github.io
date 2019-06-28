@@ -1,0 +1,27 @@
+.nav-link{
+    font-size:1.0rem;
+}
+li{
+    padding:2px 15px;
+}
+#profile, #education{
+    max-width:800px;
+    width:80%;
+    margin: 2px auto;
+}
+img{
+    width:250px;
+}
+@media (max-width:768px){
+    #profile{
+        max-width:800px;
+        width:90%;
+    }
+}
+td{
+    padding-right:15px;
+}
+#education td{
+    padding-right:20px;
+    font-weight:500;
+}
