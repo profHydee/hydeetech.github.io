@@ -8,7 +8,7 @@ li a{
     font-size:20px;
 }
 .carousel-caption{
-    bottom:50%;
+    bottom:30%;
 }
 .carousel-caption h5{
     font-size:4.8rem;
@@ -21,7 +21,7 @@ li a{
         width:inherit !important;
     }
     .carousel-caption {
-        bottom:15%;
+        bottom:8%;
     }
     .carousel-caption h5{
         font-size:3.0rem;
@@ -32,7 +32,7 @@ li a{
         width:inherit !important;
     }
     .carousel-caption {
-        bottom:7%;
+        bottom:3%;
     }
     .carousel-caption h5{
         font-size:1.4rem;
