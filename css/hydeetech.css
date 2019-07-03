@@ -17,9 +17,6 @@ li a{
     font-size:1.2rem;
 }
 @media (max-width:827px){
-    .container{
-        max-width:90%;
-    }
     .carousel-item img{
         width:inherit !important;
     }
@@ -28,6 +25,12 @@ li a{
     }
     .carousel-caption h5{
         font-size:3.0rem;
+    }
+}
+@media (max-width:1024px){
+    .container{
+        max-width:90%;
+        width:90%;
     }
 }
 @media (max-width:590px){
