@@ -29,8 +29,8 @@ li a{
 }
 @media (max-width:1024px){
     .container{
-        max-width:90%;
-        width:90%;
+        max-width:90% !important;
+        width:90% !important;
     }
 }
 @media (max-width:590px){
