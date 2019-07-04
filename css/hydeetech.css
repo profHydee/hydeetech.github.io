@@ -32,6 +32,9 @@ li a{
         max-width:90% !important;
         width:90% !important;
     }
+    body{
+        font-size:18px !important;
+    }
 }
 @media (max-width:590px){
     .carousel-item img{
