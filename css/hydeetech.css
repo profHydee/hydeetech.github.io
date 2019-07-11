@@ -43,6 +43,9 @@ li a{
     p{
         font-size: 22px;
     }
+    .carousel-caption{
+        bottom:30%;
+    }
 }
 
 @media(min-width:900px){
@@ -115,7 +118,7 @@ input#mc-embedded-subscribe {
     background-color:#189eea;
     color:#ffffff;
 }
-#footer, nav {
+#footer {
     background-color:#545454 !important;
     color:#ffffff !important;
 }
@@ -124,7 +127,7 @@ h2, h5.card-title, .navbar-dark .navbar-nav .nav-link{
 }
 nav {
     background-color:#ffffff !important;
-    color:#ffffff !important;
+    /*color:#ffffff !important;*/
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 0.7);
