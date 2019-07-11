@@ -1,6 +1,3 @@
-*{
-    font-family: 'Montserrat', sans-serif;
-}
 #hydeeNav, .navbar-collapse{
     width:auto;
 }
@@ -8,31 +5,32 @@
     margin-right:35px;
 }
 
-h5, h2{
+/*h5, h2{
     font-weight:bold;
-}
+}*/
 
-@font-face {
+/*@font-face {
     font-family: "Russo One";
     src: url("css/fonts/Russo_One");
     src: url("css/fonts/Harabara.woff") format("woff"), url("css/fonts/Harabara.otf") format("opentype"), 
     url("css/fonts/Harabara.svg#filename") format("svg");
-}
+}*/
 
 
 li a{
     font-size:20px;
 }
 .carousel-caption{
-    bottom:30%;
+    bottom:40%;
 }
 .carousel-caption h5{
     font-size:5rem;
-    font-family: "Russo One";
     font-weight: 700;
+    text-shadow: 2px 2px 2px #000000;
 }
 .carousel-caption p{
     font-size:1.25rem;
+    text-shadow: 2px 2px 2px #000000;
 }
 @media (max-width:1024px){
     .container{
@@ -46,6 +44,13 @@ li a{
         font-size: 22px;
     }
 }
+
+@media(min-width:900px){
+    .adjust.btn-info {
+        margin-right: 31px !important;
+    }
+    }
+
 @media (max-width:827px){
     .carousel-item img{
         width:inherit !important;
@@ -111,9 +116,26 @@ input#mc-embedded-subscribe {
     color:#ffffff;
 }
 #footer, nav {
-    background-color:#5e5e5e !important;
+    background-color:#545454 !important;
     color:#ffffff !important;
 }
+h2, h5.card-title, .navbar-dark .navbar-nav .nav-link{
+    font-family: 'Montserrat', sans-serif !important;
+}
+nav {
+    background-color:#ffffff !important;
+    color:#ffffff !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.7);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #189eea;
+}
+.navbar-dark .navbar-nav .active > .nav-link{
+    color:#189eea;
+}
+
 .btn-info{
     background-color: #00316B;
     border:0px;
@@ -171,4 +193,12 @@ input#mc-embedded-subscribe {
 }
 .bg{
     background-color:#f1f1f1;
+}
+#footer p{
+    color:rgba(255,255,255);
+}
+@media(min-width:900px){
+.adjust.btn-info {
+    margin-right: 31px !important;
+}
 }
