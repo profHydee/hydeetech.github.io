@@ -28,7 +28,19 @@ li a{
     font-weight: 700;
 }
 .carousel-caption p{
-    font-size:1.2rem;
+    font-size:1.25rem;
+}
+@media (max-width:1024px){
+    .container{
+        max-width:90% !important;
+        width:90% !important;
+    }
+    .carousel-caption p{
+        font-size:1.35rem;
+    }
+    p{
+        font-size: 20px;
+    }
 }
 @media (max-width:827px){
     .carousel-item img{
@@ -41,7 +53,7 @@ li a{
         font-size:3.0rem;
     }
 }
-@media (max-width:1024px){
+/*@media (max-width:1024px){
     .container{
         max-width:90% !important;
         width:90% !important;
@@ -49,7 +61,7 @@ li a{
     p {
         font-size:20px !important;
     }
-}
+}*/
 @media (max-width:590px){
     .carousel-item img{
         width:inherit !important;
