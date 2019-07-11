@@ -8,6 +8,10 @@
     margin-right:35px;
 }
 
+h5, h2{
+    font-weight:bold;
+}
+
 @font-face {
     font-family: "Russo One";
     src: url("css/fonts/Russo_One");
@@ -90,8 +94,8 @@ input {
     max-width:100%;
 }
 input#mc-embedded-subscribe {
-    background-color: #189eea;
-    color:#ffffff;
+    background-color: #189eea !important;
+    color:#ffffff !important;
 }
 #contact img.img-fluid{
     border-top-right-radius: 22px;
